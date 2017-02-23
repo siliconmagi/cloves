@@ -1,6 +1,6 @@
 <template>
     <div class="sidebar__logo-container">
-        <img class="sidebar__logo" src="https://vuejs.org/images/logo.png" />
+        <img class="sidebar__logo" src="https://cdn.rawgit.com/siliconmagi/pictures/master/proto-min.svg" />
     </div>
 </template>
 

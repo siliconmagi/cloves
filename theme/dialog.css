@@ -119,7 +119,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    background: #fff;
+    background: white;
     border-radius: 2px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
     box-sizing: border-box;
@@ -160,23 +160,23 @@
 
 .el-dialog__close{
     cursor: pointer;
-    color: rgb(217, 191, 191);
+    color: rgb(191, 203, 217);
 }
 
 .el-dialog__close:hover{
-    color: #d22c39;
+    color: #20a0ff;
 }
 
 .el-dialog__title{
     line-height: 1;
     font-size: 16px;
     font-weight: 700;
-    color: rgb(61, 31, 31);
+    color: rgb(31, 45, 61);
 }
 
 .el-dialog__body{
     padding: 30px 20px;
-    color: rgb(106, 73, 72);
+    color: rgb(72, 87, 106);
     font-size: 14px;
 }
 

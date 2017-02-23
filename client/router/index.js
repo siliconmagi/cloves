@@ -11,7 +11,7 @@ export const routes = [
         path: '/',
         component: Dashboard,
         meta: {
-            title: 'Dashboard'
+            title: 'Nightshell'
         }
     }, {
         path: '/post/:id',
@@ -27,4 +27,4 @@ export const routes = [
         }
     }
 ]
-export const router = new Router({mode: 'history', routes})
+export const router = new Router({mode: 'hash', routes})

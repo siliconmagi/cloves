@@ -11,7 +11,7 @@
 
   /* Colors
   -------------------------- */
-  --color-primary: #d22c39;
+  --color-primary: #20a0ff;
 
   --color-success: #13ce66;
   --color-warning: #f7ba2a;
@@ -19,7 +19,7 @@
   --color-info: #50bfff;
 
   --color-secondary: color(var(--color-primary) s(99%) l(*0.9));
-  --color-white: #fff;
+  --color-white: white;
   --color-dark-white: color(var(--color-white) blend(var(--color-primary) 2%));
   --color-black: #000;
 

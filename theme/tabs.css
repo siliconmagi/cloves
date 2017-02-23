@@ -97,7 +97,7 @@
 .el-tabs{}
 
 .el-tabs__header{
-  border-bottom: 1px solid rgb(229, 209, 209);
+  border-bottom: 1px solid rgb(209, 219, 229);
   padding: 0;
   position: relative;
   margin: 0 0 15px;
@@ -108,7 +108,7 @@
   bottom: 0;
   left: 0;
   height: 3px;
-  background-color: #d22c39;
+  background-color: #20a0ff;
   z-index: 1;
   transition: transform .3s cubic-bezier(.645,.045,.355,1);
   list-style: none;
@@ -122,7 +122,7 @@
   float: left;
   list-style: none;
   font-size: 14px;
-  color: rgb(165, 132, 131);
+  color: rgb(131, 145, 165);
   margin-bottom: -1px;
   position: relative;
 }
@@ -140,12 +140,12 @@
 }
 
 .el-tabs__item .el-icon-close:hover{
-  background-color: rgb(190, 153, 151);
-  color: #fff;
+  background-color: rgb(151, 168, 190);
+  color: white;
 }
 
 .el-tabs__item:hover{
-  color: rgb(61, 31, 31);
+  color: rgb(31, 45, 61);
   cursor: pointer;
 }
 
@@ -155,7 +155,7 @@
 }
 
 .el-tabs__item.is-active{
-  color: #d22c39;
+  color: #20a0ff;
 }
 
 .el-tabs__content{
@@ -199,8 +199,8 @@
 }
 
 .el-tabs--card>.el-tabs__header>.el-tabs__item.is-active{
-  border: 1px solid rgb(229, 209, 209);
-  border-bottom-color: #fff;
+  border: 1px solid rgb(209, 219, 229);
+  border-bottom-color: white;
   border-radius: 4px 4px 0 0;
 }
 
@@ -214,8 +214,8 @@
 }
 
 .el-tabs--border-card{
-  background: #fff;
-  border: 1px solid rgb(229, 209, 209);
+  background: white;
+  border: 1px solid rgb(209, 219, 229);
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.12), 0px 0px 6px 0px rgba(0,0,0,0.04);
 }
 
@@ -224,7 +224,7 @@
 }
 
 .el-tabs--border-card>.el-tabs__header{
-  background-color: rgb(246, 239, 238);
+  background-color: rgb(238, 241, 246);
   margin: 0;
 }
 
@@ -237,17 +237,17 @@
 }
 
 .el-tabs--border-card>.el-tabs__header>.el-tabs__item.is-active{
-  background-color: #fff;
-  border-right-color: rgb(229, 209, 209);
-  border-left-color: rgb(229, 209, 209);
+  background-color: white;
+  border-right-color: rgb(209, 219, 229);
+  border-left-color: rgb(209, 219, 229);
 }
 
 .el-tabs--border-card>.el-tabs__header>.el-tabs__item.is-active:first-child{
-  border-left-color: rgb(229, 209, 209);
+  border-left-color: rgb(209, 219, 229);
 }
 
 .el-tabs--border-card>.el-tabs__header>.el-tabs__item.is-active:last-child{
-  border-right-color: rgb(229, 209, 209);
+  border-right-color: rgb(209, 219, 229);
 }
 
 .slideInRight-transition, .slideInLeft-transition {

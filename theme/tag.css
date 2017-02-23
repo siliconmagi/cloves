@@ -89,13 +89,13 @@
 }
 
 .el-tag{
-    background-color: rgb(165, 132, 131);
+    background-color: rgb(131, 145, 165);
     display: inline-block;
     padding: 0 5px;
     height: 24px;
     line-height: 22px;
     font-size: 12px;
-    color: #fff;
+    color: white;
     border-radius: 4px;
     box-sizing: border-box;
     border: 1px solid transparent;
@@ -118,38 +118,38 @@
 }
 
 .el-tag .el-icon-close:hover{
-    background-color: #fff;
-    color: rgb(165, 132, 131)
+    background-color: white;
+    color: rgb(131, 145, 165)
 }
 
 .el-tag--gray{
-    background-color: rgb(241, 230, 228);
-    border-color: rgb(241, 230, 228);
-    color: rgb(106, 73, 72)
+    background-color: rgb(228, 232, 241);
+    border-color: rgb(228, 232, 241);
+    color: rgb(72, 87, 106)
 }
 
 .el-tag--gray .el-tag__close:hover{
-    background-color: rgb(106, 73, 72);
-    color: #fff
+    background-color: rgb(72, 87, 106);
+    color: white
 }
 
 .el-tag--gray.is-hit{
-    border-color: rgb(106, 73, 72)
+    border-color: rgb(72, 87, 106)
 }
 
 .el-tag--primary{
     background-color: rgba(32,159,255,0.10);
     border-color: rgba(32,159,255,0.20);
-    color: #d22c39
+    color: #20a0ff
 }
 
 .el-tag--primary .el-tag__close:hover{
-    background-color: #d22c39;
-    color: #fff
+    background-color: #20a0ff;
+    color: white
 }
 
 .el-tag--primary.is-hit{
-    border-color: #d22c39
+    border-color: #20a0ff
 }
 
 .el-tag--success{
@@ -160,7 +160,7 @@
 
 .el-tag--success .el-tag__close:hover{
     background-color: #13ce66;
-    color: #fff
+    color: white
 }
 
 .el-tag--success.is-hit{
@@ -175,7 +175,7 @@
 
 .el-tag--warning .el-tag__close:hover{
     background-color: #f7ba2a;
-    color: #fff
+    color: white
 }
 
 .el-tag--warning.is-hit{
@@ -190,7 +190,7 @@
 
 .el-tag--danger .el-tag__close:hover{
     background-color: #ff4949;
-    color: #fff
+    color: white
 }
 
 .el-tag--danger.is-hit{

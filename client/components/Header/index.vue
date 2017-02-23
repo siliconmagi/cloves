@@ -7,13 +7,13 @@
             </el-button>
         </el-menu-item>
         <span v-if="showPageTitle" class="header-title">{{pageTitle}}</span>
-        <el-submenu class="header-menu" index="3">
-            <template slot="title">Workspace</template>
-                <el-menu-item index="4-1">item one</el-menu-item>
-                <el-menu-item index="4-2">item two</el-menu-item>
-                <el-menu-item index="4-3">item three</el-menu-item>
-            </el-submenu>
-        </el-menu>
+        <!-- <el-submenu class="header-menu" index="3"> -->
+            <!-- <template slot="title">Workspace</template> -->
+                <!-- <el-menu-item index="4-1">item one</el-menu-item> -->
+                <!-- <el-menu-item index="4-2">item two</el-menu-item> -->
+                <!-- <el-menu-item index="4-3">item three</el-menu-item> -->
+            <!-- </el-submenu> -->
+        <!-- </el-menu> -->
     </header>
 </template>
 

@@ -125,7 +125,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #fff;
+    background-color: white;
     opacity: 0.24;
     transition: .2s
 }:root{
