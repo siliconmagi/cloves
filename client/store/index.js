@@ -4,12 +4,16 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 const state = {
-  messages: []
+  messages: [],
+  txtNumer: ""
 }
 
 const mutations = {
   NEW_MESSAGE(state, msg) {
     state.messages.push(msg)
+  },
+  txtUpdate(state, txtNumer) {
+    state.txtNumer = txtNumer
   }
 }
 

@@ -23,6 +23,7 @@
          </el-submenu>
          <el-menu-item index="/about">About</el-menu-item>
          <el-menu-item index="/vuex">Vuex</el-menu-item>
+         <el-menu-item index="/numer">Numer</el-menu-item>
        </el-menu>
    </div>
 </template>
