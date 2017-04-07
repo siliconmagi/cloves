@@ -5,7 +5,8 @@ Vue.use(Vuex)
 
 const state = {
   messages: [],
-  txtNumer: ""
+  txtNumer: "",
+  count: 0
 }
 
 const mutations = {
@@ -14,7 +15,14 @@ const mutations = {
   },
   txtUpdate(state, txtNumer) {
     state.txtNumer = txtNumer
+  },
+  txtCheck(state, txtNumer) {
+    let matches = txtNumer.match(/[ajs]/gi)
+    let count = matches ? matches.length : 0
+    state.txtNumer = txtNumer
+    state.count = count
   }
+
 }
 
 const actions = {
