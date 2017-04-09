@@ -3,7 +3,9 @@
     <h2>Pythagorean Numerology Calculator</h2>
     <input :value="txtNumer" @input="txtUpdate" placeholder="Enter a word">
     <h3>{{ count }}</h3>
-        <h3>{{ prob }}</h3>
+    <h3>{{ prob }}</h3>
+    <h3>{{ ahCount }}</h3>
+    <h3>{{ irCount }}</h3>
   </div>
 </template>
 
@@ -18,7 +20,9 @@
         // Grab store state and assign it to variables 
         txtNumer: state => state.txtNumer,
         count: state => state.count,
-        prob: state => state.prob
+        prob: state => state.prob,
+        ahCount: state => state.ahCount,
+        irCount: state => state.irCount
       })
     },
     methods: {
