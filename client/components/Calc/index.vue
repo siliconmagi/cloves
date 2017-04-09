@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h2>Calculator</h2>
+    <h2>Pythagorean Numerology Calculator</h2>
     <input :value="txtNumer" @input="txtUpdate" placeholder="Enter a word">
-    <p>{{ txtNumer }}</p>
-    <p>{{ count }}</p>
+    <h3>{{ count }}</h3>
+        <h3>{{ prob }}</h3>
   </div>
 </template>
 
@@ -17,7 +17,8 @@
       ...mapState({
         // Grab store state and assign it to variables 
         txtNumer: state => state.txtNumer,
-        count: state => state.count
+        count: state => state.count,
+        prob: state => state.prob
       })
     },
     methods: {
