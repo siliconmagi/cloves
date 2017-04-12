@@ -6,6 +6,8 @@
     <h3>{{ prob }}</h3>
     <h3>{{ ahCount }}</h3>
     <h3>{{ irCount }}</h3>
+    <h3>{{ stringAdd }}</h3>
+
   </div>
 </template>
 
@@ -22,7 +24,8 @@
         count: state => state.count,
         prob: state => state.prob,
         ahCount: state => state.ahCount,
-        irCount: state => state.irCount
+        irCount: state => state.irCount,
+        stringAdd: state => state.stringAdd
       })
     },
     methods: {
