@@ -2,7 +2,7 @@
     <div id="sidebar" :class="{'open': active}">
     <el-menu theme="light" router>
         <div class="logo-container">
-            <img class="logo" src="https://cdn.rawgit.com/siliconmagi/pictures/master/proto-min.svg" />
+            <img class="logo" src="https://cdn.jsdelivr.net/gh/siliconmagi/pictures/proto-min.svg" />
         </div>
           <el-menu-item index="/">Home</el-menu-item>
          <el-submenu index="1">
